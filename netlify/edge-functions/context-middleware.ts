@@ -34,7 +34,7 @@ export default async (request: Request, netlifyContext: Context) => {
 
   // Do secret stuff
   const res = await fetch(
-    'https://cdpmock.netlify.app/profile/v1/spaces/space_1/collections/users/profiles/user_id:2/traits',
+    'https://cdpmock.netlify.app/profile/v1/spaces/space_1/collections/users/profiles/user_id:1/traits',
   );
 
   if (!res.ok) {
